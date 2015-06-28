@@ -111,7 +111,21 @@ a:focus {
   text-decoration: underline;
   color:#f5c142;
 }
-
+a.team {
+	padding: 0; 
+	margin-bottom: 12px; 
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px; 
+	line-height: 26px;
+	letter-spacing: 1px;
+	color: #666; 
+	margin-top: 10px; 
+}
+a.team:hover {
+	text-decoration: underline;
+	color: #f5c142 !important;
+}
 .nopadding {
 	padding: 0px !important;
 	margin: 0px;
@@ -377,7 +391,7 @@ ul {
 	background-image: url('../img/walkabout_logo.png');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100%;
+	
 	
 }
 #cssfade img {
