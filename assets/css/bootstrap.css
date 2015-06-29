@@ -1116,6 +1116,8 @@ p {
     font-size: 21px;
   }
 }
+
+@media (max-width: 768px)
 small,
 .small {
   font-size: 85%;
@@ -1393,19 +1395,29 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 450px) {
   .container {
-    width: 750px;
+    width: 400px;
   }
 }
-@media (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .container {
-    width: 970px;
+    width: 768px;
+
   }
 }
-@media (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 992px;
+   
+  
+  }
+} 
+@media only screen and (min-width: 1200px) {
   .container {
     width: 1170px;
+     
+ 
   }
 }
 .container-fluid {
@@ -2292,6 +2304,20 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered > tbody > tr:last-child > td,
   .table-responsive > .table-bordered > tfoot > tr:last-child > td {
     border-bottom: 0;
+  }
+  #cssfade {
+    min-width: 80%;
+    background-size: 80%;
+    max-width: 80%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .container{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
   }
 }
 fieldset {
@@ -4007,6 +4033,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border: 0;
     -webkit-box-shadow: none;
             box-shadow: none;
+
   }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {

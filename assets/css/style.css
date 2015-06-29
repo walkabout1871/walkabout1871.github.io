@@ -390,11 +390,12 @@ ul {
 #cssfade {
 	background-image: url('../img/walkabout_logo.png');
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: auto;
 	background-size: 100%;
 	text-align: center;
 	width: 40%;
 	margin: auto;
+	
 }
 #cssfade img {
 	-webkit-transition: all ease 1s;
