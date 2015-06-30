@@ -40,7 +40,6 @@ p {
 	font-size: 16px; 
 	line-height: 26px;
 	letter-spacing: 1px;
-	color: #666; 
 	margin-top: 10px; 
 }
 
@@ -84,7 +83,7 @@ img {
 ::selection {
 	color: #fff;
 	text-shadow:none;
-	background:#2B2E31;
+	background:#f5c142;
 }
 *,
 *:after,
@@ -108,24 +107,11 @@ a {
 }
 a:hover,
 a:focus {
-  text-decoration: underline;
-  color:#f5c142;
+  text-decoration: none;
+  color:#f5c142 !important;
+
 }
-a.team {
-	padding: 0; 
-	margin-bottom: 12px; 
-    font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	font-size: 16px; 
-	line-height: 26px;
-	letter-spacing: 1px;
-	color: #666; 
-	margin-top: 10px; 
-}
-a.team:hover {
-	text-decoration: underline;
-	color: #f5c142 !important;
-}
+
 .nopadding {
 	padding: 0px !important;
 	margin: 0px;
@@ -191,7 +177,7 @@ input {
 
 .btn-green {
 	background: #f5c142;
-	color: white
+	color: #ffffff;
 }
 
 /* HEADER SECTION */
@@ -386,6 +372,8 @@ ul {
 	color: #03C9A9;
 }
 
+
+/*Custom CSS*/
 /*CSSFADE*/
 #cssfade {
 	background-image: url('../img/walkabout_logo.png');
@@ -410,3 +398,45 @@ ul {
 #cssfade img:hover {
 	opacity: 0;
 }
+
+
+
+
+#glowimg img {
+	-webkit-transition: border 0.5s ease;
+	-moz-transition: border 0.5s ease;
+	-o-transition: border 0.5s ease;
+	-ms-transition: border 0.5s ease;
+	transition: border 0.5s ease;	
+}
+
+#glowimg img:hover {
+	border: 7px solid #f5c142;
+	border-radius: 50%;
+	text-decoration: underline;
+	color: #f5c142;
+
+}
+
+#smallerfont {
+	font-size: 14px;
+}
+
+.team {
+	padding: 0; 
+	margin-bottom: 0px; 
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px; 
+	line-height: 26px;
+	letter-spacing: 1px; 
+	margin-top: 10px; 
+	color: #666 !important;
+}
+a.team:hover,
+a.team:focus {
+	text-decoration: underline;
+	color: #f5c142;
+
+}
+
