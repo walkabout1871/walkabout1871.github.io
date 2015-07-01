@@ -62,10 +62,10 @@ img {
 }
 .centered {text-align: center}
 .mt {margin-top: 50px;}
-.mb {margin-bottom: 50px;}
+.mb {margin-bottom: 0px;}
 .mtb {margin-top: 50px; margin-bottom: 50px;}
 .mtb2 { margin-top: 100px; margin-bottom: 100px;}
-.ptb {padding-top: 80px; padding-bottom: 80px;}
+.ptb {padding-top: 10px; padding-bottom: 10px;}
 
 .clear {
 	clear: both;
@@ -242,7 +242,7 @@ input {
 
 /* SEP */
 #sep {
-	background: url(../img/navypier.jpg) no-repeat center top;
+	background: url(../img/prototypepic.jpg) no-repeat center top;
 	padding-top: 90px;
 	text-align:center;
 	background-attachment: relative;
@@ -439,4 +439,24 @@ a.team:focus {
 	color: #f5c142;
 
 }
+
+div#vignette {
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+
+div#vignette:hover{
+box-shadow:inset 0px 0px 85px rgba(0,0,0,.5);
+-webkit-box-shadow:inset 0px 0px 85px rgba(0,0,0,.5);
+-moz-box-shadow:inset 0px 0px 85px rgba(0,0,0,.5);
+}
+
+img.teamphoto{
+z-index: -1;
+position: relative;
+}
+
 
