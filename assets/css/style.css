@@ -459,4 +459,28 @@ z-index: -1;
 position: relative;
 }
 
+.paralink {
+	padding: 0; 
+	margin-bottom: 0px; 
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px; 
+	line-height: 26px;
+	letter-spacing: 1px; 
+	margin-top: 10px; 
+	color: #666 !important;
+	text-decoration: underline;
+
+}
+a.paralink:hover,
+a.paralink:focus {
+	text-decoration: underline;
+	color: #f5c142;
+
+}
+
+.img-responsive-chicago {
+	  	display: none;
+  		width: 10%;
+  	}
 
